@@ -145,12 +145,23 @@ public:
 		if (current==nullptr){
 			cout<<"Node not found"<<endl;
 		}
+		
+		if (prev!=nullptr){
+			int pred=prev->data;
+			cout<<"Predecessor: "<<pred<<endl;
+		}
+		else{
+			cout<<"No Predecessor(This is the first Node) "<<endl;
+		}
 
-		int pred=prev->data;
-		int succ=current->next->data;
+		if (current->next!=nullptr){
+			int succ=current->next->data;
+			cout<<"Successor: "<<succ<<endl;
+		}
+		else{
+			cout<<"No Successor(This is the last Node) "<<endl;
+		}	
 
-		cout<<"Predecessor: "<<pred<<endl;
-		cout<<"Successor: "<<succ<<endl;
 		
 		return head;
 	}
@@ -198,7 +209,11 @@ int main(){
 	L.update(10,12);
 	L.display();
 	cout<<"\nPredecessor and Successor:\n"<<endl;
-	L.find_pns(20);
+	L.find_pns(15);
+	L.find_pns(30);
+	L.find_pns(60);
+
+
 	
 }       
 
