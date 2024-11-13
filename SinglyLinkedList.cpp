@@ -133,7 +133,7 @@ public:
 		return head;
 	}
 
-	Node* find_pnd(int value){
+	Node* find_pns(int value){
 		Node* current=head;
 		Node* prev=nullptr;
 
@@ -198,7 +198,7 @@ int main(){
 	L.update(10,12);
 	L.display();
 	cout<<"\nPredecessor and Successor:\n"<<endl;
-	L.find_pnd(20);
+	L.find_pns(20);
 	
 }       
 
