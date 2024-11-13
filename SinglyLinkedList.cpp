@@ -56,9 +56,10 @@ public:
 		}
 
 		Node* temp=head;
+		int deleteddata=temp->data;
 		head=head->next;
 		delete temp;
-		cout<<temp->data<<" deleted from beginning"<<endl;
+		cout<<deleteddata<<" deleted from beginning"<<endl;
 		return head;
 	}
 
