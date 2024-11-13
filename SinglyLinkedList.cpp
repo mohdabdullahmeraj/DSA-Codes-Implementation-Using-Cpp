@@ -12,11 +12,11 @@ public:
 	}
 };
 
-class LinkedList{
+class SinglyLinkedList{
 public:
 	Node* head;
 
-	LinkedList(){
+	SinglyLinkedList(){
 		head=nullptr;	
 	}
 
@@ -173,7 +173,7 @@ public:
 };
         
 int main(){
-	LinkedList L;
+	SinglyLinkedList L;
 	L.display();
 	cout<<"\nInsersions:\n"<<endl;
 	L.insert_beg(10);
