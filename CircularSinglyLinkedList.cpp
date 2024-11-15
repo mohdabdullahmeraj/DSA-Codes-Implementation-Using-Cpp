@@ -172,12 +172,12 @@ public:
 
 	Node* find_pns(int value){
 		
-		if (head == nullptr) {
-	        cout << "List is empty" << endl;
-	        return nullptr;
-   		}
+	if (head == nullptr) {
+		cout << "List is empty" << endl;
+		return nullptr;
+   	}
 
-   	 	Node* current = head;
+   	Node* current = head;
     	Node* prev = nullptr;
 
     	do{
