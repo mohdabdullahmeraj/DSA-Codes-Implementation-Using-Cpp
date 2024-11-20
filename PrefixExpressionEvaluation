@@ -25,9 +25,9 @@ double evaluatePrefix(const string& expression){
 		}
 
 		else if(expression[i] == '+' || expression[i] == '-' || expression[i] == '*' || expression[i] == '/'){
-			double op1=s.top();
-			s.pop();
 			double op2=s.top();
+			s.pop();
+			double op1=s.top();
 			s.pop();
 
 			switch (expression[i]){
