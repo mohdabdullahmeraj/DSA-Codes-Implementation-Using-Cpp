@@ -30,7 +30,7 @@ string postfixToPrefix(string postfix){
 
 
 int main(){
-	string postfix = "abc*+";
+    string postfix = "abc*+";
     string prefix = postfixToPrefix(postfix);
     cout << "Prefix expression: " << prefix << endl;
     return 0;
