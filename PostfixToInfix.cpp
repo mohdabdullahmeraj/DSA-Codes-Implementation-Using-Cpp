@@ -30,7 +30,7 @@ string postfixToInfix(string postfix){
 
 
 int main(){
-	string postfix = "abc*+d-";
+    string postfix = "abc*+d-";
     string infix = postfixToInfix(postfix);
     cout << "Infix expression: " << infix << endl;
     return 0;
