@@ -72,7 +72,7 @@ string infixToPrefix(string infix){
 
 
 int main(){
-	string infix = "A+B*(C^D-E)^(F+G*H)-I";
+    string infix = "A+B*(C^D-E)^(F+G*H)-I";
     cout << "Prefix Expression: " << infixToPrefix(infix) << endl;
     return 0;
 }      
