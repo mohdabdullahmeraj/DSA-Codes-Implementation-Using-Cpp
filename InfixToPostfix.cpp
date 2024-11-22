@@ -53,7 +53,7 @@ string infixToPostfix(string infix){
 
 
 int main(){
-	string infix = "A+B*(C^D-E)^(F+G*H)-I";
+    string infix = "A+B*(C^D-E)^(F+G*H)-I";
     cout << "Postfix Expression: " << infixToPostfix(infix) << endl;
     return 0;
 }      
