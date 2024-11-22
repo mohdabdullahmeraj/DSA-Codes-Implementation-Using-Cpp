@@ -32,7 +32,7 @@ string prefixToInfix(string prefix){
 
 
 int main(){
-	string prefix = "+*abc";
+    string prefix = "+*abc";
     string infix = prefixToInfix(prefix);
     cout << "Infix expression: " << infix << endl;
     return 0;
