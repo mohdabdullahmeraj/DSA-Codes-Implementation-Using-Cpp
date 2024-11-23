@@ -61,10 +61,10 @@ public:
 			Node* temp=top;
 			cout<<"Stack elements are: "<<endl;
 			while(temp!=nullptr){
-				cout<<temp->data<<" ";
+				cout<<temp->data<<"->";
 				temp=temp->next;
 			}
-			cout<<endl;
+			cout<<"nullptr"<<endl;
 		}
 	}
 
