@@ -73,6 +73,10 @@ public:
 		}
 	}
 
+	~Queue(){
+		delete[] arr;
+	}
+
 };
 
 int main(){
